@@ -1,6 +1,7 @@
 # VIDA-IA
-
-%% NOMEACAO DOS ARQUIVOS
+%%%%%%%%%%%%%%%%%%%%%%
+NOMEACAO DOS ARQUIVOS
+%%%%%%%%%%%%%%%%%%%%%%
 
 <exemplo: VIDA_im_alunos.mat>
 
@@ -13,12 +14,13 @@
         robo = robo
       
 3º - Usuários:
+
         Especialistas = esp
         Alunos sem experiência em anestesia = alunos
         
-
-%% CONTEUDO DOS ARQUIVOS
-
+%%%%%%%%%%%%%%%%%%%%%%
+ CONTEUDO DOS ARQUIVOS
+%%%%%%%%%%%%%%%%%%%%%%
 
 Col 1 - Tempo (s)
 
