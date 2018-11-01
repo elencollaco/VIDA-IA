@@ -24,7 +24,7 @@ NOMEACAO DOS ARQUIVOS
 
 Col 1 - Tempo (s)
 
-Col 2 - Trajetória translação PosX (graus)
+Col 2 - Trajetória translação PosX (m)
 
 Col 3 - Trajetória translação PosY
 
