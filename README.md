@@ -3,7 +3,7 @@
 NOMEACAO DOS ARQUIVOS
 %%%%%%%%%%%%%%%%%%%%%%
 
-<exemplo: VIDA_im_alunos.mat>
+<exemplo: VIDA_im_alunos_traj512.mat>
 
  1º - Nome do experimento = VIDA
  
@@ -17,10 +17,17 @@ NOMEACAO DOS ARQUIVOS
 
         Especialistas = esp
         Alunos sem experiência em anestesia = alunos
+	
+4º - Usuários:
+
+	Dados das trajetórias = trajN (sendo N observações)
+	Dados da punção = punc
         
 %%%%%%%%%%%%%%%%%%%%%%
  CONTEUDO DOS ARQUIVOS
 %%%%%%%%%%%%%%%%%%%%%%
+
+==== Dados das trajetórias ===
 
 Col 1 - Tempo (s)
 
@@ -35,6 +42,8 @@ Col 5 - Trajetória rotação RotX (graus)
 Col 6 - Trajetória rotação RotY
 
 Col 7 - Trajetória rotação RotZ
+
+==== Dados da punção ===
 
 Col 8 - punção X: região de penetração da agulha no tecido
 
