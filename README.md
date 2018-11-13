@@ -45,12 +45,12 @@ Col 7 - Trajetória rotação RotZ
 
 ==== Dados da punção ===
 
-Col 8 - punção X: região de penetração da agulha no tecido
+Col 1 - punção X: região de penetração da agulha no tecido
 
-Col 9 - punção Y
+Col 2 - punção Y
 
-Col 10 - punção Z
+Col 3 - punção Z
 
-Col 11 -  angulação: angulo de penetração no tecido (graus)
+Col 4 -  angulação: angulo de penetração no tecido (graus)
 
-Col 12 - profundidade de penetração: proporção da agulha penetrada (milímetros?)
+Col 5 - profundidade de penetração: proporção da agulha penetrada (milímetros?)
