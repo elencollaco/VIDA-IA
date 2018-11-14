@@ -1,3 +1,7 @@
 Os dados sao normalizados para que todas as variaveis apresentem a mesma variacao, com todos os valores contidos no intervalo [0, 1].
 
 function [] = dadoNormalizado(rawData)
+
+Para fazer um teste chamar:
+  load iris_test.mat;
+  dadoNormalizado(iris_test);
