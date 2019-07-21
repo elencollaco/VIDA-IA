@@ -1,0 +1,16 @@
+%Esse é um exemplo de como plotar a curva ROC e calcular a área sob a curva (AUC)
+%A AUC é uma porção da área do quadrado unitário no espaço ROC e seus valores estão limitados a 1.0. Uma AUC de 1.0 significa que o 
+%classificador discrimina perfeitamente entre os casos que o aluno foi bem sucessido ou não em seu desempenho. Já uma AUC de 0.5 
+%significa que a precisão do classificador é equivalente ao que seria obtido por chance. 
+
+clc;clear all;close all;
+load tabela_rocResiduo20.mat;
+
+Z = trapz(tabela_roc(:,2),tabela_roc(:,3));   %calcula a area sob a curva. Essa funcao aproxima a integração de uma área com intervalo de dados
+plot(tabela_roc(:,2), tabela_roc(:,3), 'o-r');  %plota a curva ROC de acordo com a Matriz de Confusão (Confusion Matrix).
+set(gca,'XTick',[0; 1]);    %limita entre os valores 0-1
+set(gca,'YTick',[0; 1]);
+title(['AUC =',num2str(Z)]);clear tabela_roc;hold on;   %mostra o resultado da AUC 
+ylabel('Sensibilidade');
+xlabel('FPR');
+legend('T2 Hotelling')
