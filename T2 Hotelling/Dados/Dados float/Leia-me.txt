@@ -1,0 +1,20 @@
+==== ORGANIZAÇÃO DE DADOS ====	
+
+participantesBauru (91, 7)
+Colunas:
+1. Código participante  
+2. NotaDistancia (Fórmula)
+3. X [mm] no plano de referência
+4. Y [mm] no plano de referência
+5. Notas da Cidinha
+6. Notas da Maria 
+7. Notas do Luiz
+
+
+participantesSP (171, 5)
+Colunas:
+1. Código participante  
+2. NotaDistancia (Fórmula)
+3. X [mm] no plano de referência
+4. Y [mm] no plano de referência
+5. Condição do experimento
